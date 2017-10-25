@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://docs.open.alipay.com"
   s.license      = "MIT"
   s.author       = "Alipay"
-  s.authors      = { "Instapp" => "https://instapp.io" }
+  s.authors      = { "applejian" => "https://applejian.io" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/instapp/Alipay-SDK.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/applejian/Alipay-SDK.git", :tag => s.version }
 
   s.resources           = "SDK/AlipaySDK.bundle"
   s.vendored_frameworks = "SDK/AlipaySDK.framework"
